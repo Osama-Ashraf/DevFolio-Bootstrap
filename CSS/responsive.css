@@ -1,0 +1,437 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .nav-list ul li a{
+        font-size: 12px;
+    }
+
+    .nav-list ul{
+        display: flex;
+        justify-content: space-evenly; 
+    }
+
+
+    .set-icon{
+        z-index: 99;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .nav-logo{
+        width: 10%;
+    }
+
+    .nav-list{
+        margin-right: 20px;
+        margin-top: 20px;
+        width: 90%;
+    }
+
+
+    .typed h2{
+        font-size: 25px;
+        padding-left: 15px;
+    }
+
+    .typed h2::after{
+        left: 25%;
+    }
+
+    .title-back{
+        font-size: 50px;
+    }
+
+    .container{
+        padding: 0 0px;
+    }
+
+    .about-content{
+        flex-wrap: wrap;
+    }
+
+    .about-status{
+        flex-wrap: wrap;
+    }
+
+    .statue{
+        width: 50%;
+    }
+    .about-desc{
+        width: 100%;
+    }
+    .about-info{
+        width: 100%;
+    }
+
+    .service{
+        padding-bottom: 20px;
+        width: 100%;
+    }
+
+    .summary{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .summary-experience{
+        width: 100%;
+        margin: 30px;
+    }
+    
+    .summary-education{
+        margin: 30px;
+        width: 100%;
+    }
+
+    .summary-date{
+        width: 20%;
+    }
+
+    .skill{
+        width: 100%;
+        margin: 30px;
+    }
+
+    .col{
+        width: 100%;
+    }
+
+    .port-img{
+        padding: 10px;
+    }
+
+    .overlay{
+        top: 10px;
+        bottom: 10px;
+        right: 10px;
+        left: 10px;
+    }
+
+    .col3{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .col3 .port-img{
+        width: 100%;
+    }
+
+    .reviews{
+        flex-wrap: wrap;
+    }
+
+    .review{
+        width: 100%;
+    }
+
+    .contact{
+        flex-wrap: wrap;
+        margin: 30px;
+    }
+    .contact-form{
+        width: 100%;
+    }
+
+    .contact-form input{
+        width: 100%;
+    }
+
+    .in{
+        margin-right: 0px;
+    }
+
+    .contact-info{
+        margin: auto;
+        text-align: center;
+        width: 40%;
+        padding-top: 40px;
+        order: 1;
+    }
+
+    #footer{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .left{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .right{
+        width: 100%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px){
+
+    .nav-list ul li a{
+        font-size: 14px;
+    }
+
+    .nav-list ul{
+        justify-content: space-evenly; 
+    }
+
+    .set-icon{
+        z-index: 99;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .nav-logo{
+        width: 10%;
+    }
+
+    .nav-list{
+        margin-top: 20px;
+        width: 90%;
+    }
+
+
+    .typed h2{
+        font-size: 30px;
+        padding-left: 15px;
+    }
+
+    .typed h2::after{
+        left: 25%;
+    }
+
+    .title-back{
+        font-size: 70px;
+    }
+
+    .container{
+        padding: 0 0px;
+    }
+
+    .about-content{
+        flex-wrap: wrap;
+    }
+
+    .about-status{
+        flex-wrap: wrap;
+    }
+
+    .statue{
+        width: 50%;
+    }
+    .about-desc{
+        width: 100%;
+    }
+    .about-info{
+        width: 100%;
+    }
+
+    .service{
+        padding-bottom: 20px;
+        width: 100%;
+    }
+
+    .summary{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .summary-experience{
+        width: 100%;
+        margin: 30px;
+    }
+    
+    .summary-education{
+        margin: 30px;
+        width: 100%;
+    }
+
+    .summary-date{
+        width: 20%;
+    }
+
+    .skill{
+        width: 100%;
+        margin: 30px;
+    }
+
+    .col{
+        width: 50%;
+    }
+
+    .port-img{
+        padding: 10px;
+    }
+
+    .overlay{
+        top: 10px;
+        bottom: 10px;
+        right: 10px;
+        left: 10px;
+    }
+
+    .col3{
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .col3 .port-img{
+        width: 50%;
+    }
+
+    .reviews{
+        flex-wrap: wrap;
+    }
+
+    .review{
+        width: 100%;
+    }
+
+    .contact{
+        flex-wrap: wrap;
+        margin: 30px;
+    }
+    .contact-form{
+        width: 100%;
+    }
+
+    .contact-form input{
+        width: 100%;
+    }
+
+    .in{
+        margin-right: 0px;
+    }
+
+    .contact-info{
+        margin: auto;
+        text-align: center;
+        width: 40%;
+        padding-top: 40px;
+        order: 1;
+    }
+
+    #footer{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .left{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .right{
+        width: 100%;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .nav-list ul li a{
+        font-size: 14px;
+    }
+
+    .nav-list ul{
+        justify-content: space-evenly; 
+    }
+
+    .navbar{
+        width: 100%;
+    }
+    .nav-logo{
+        width: 15%;
+    }
+
+    .nav-list{
+        margin-top: 20px;
+        width: 80%;
+    }
+
+    .typed h2{
+        font-size: 40px;
+        padding-left: 25px;
+        position: relative;
+    }
+
+    .typed h2::after{
+        left: 25%;
+    }
+
+    .title-back{
+        font-size: 110px;
+    }
+
+    .container{
+        padding: 0 30px;
+    }
+
+    .about-content{
+        flex-wrap: wrap;
+    }
+    .about-desc{
+        width: 100%;
+    }
+    .about-info{
+        width: 100%;
+    }
+
+    .service{
+        padding: 10px;
+    }
+
+    .summary-date{
+        width: 30%;
+    }
+
+    .col{
+        width: 50%;
+    }
+
+    .port-img{
+        padding: 10px;
+    }
+
+    .overlay{
+        top: 10px;
+        bottom: 10px;
+        right: 10px;
+        left: 10px;
+    }
+
+    .col3{
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .col3 .port-img{
+        width: 50%;
+    }
+
+    .reviews{
+        flex-wrap: wrap;
+    }
+
+    .review{
+        width: 100%;
+    }
+
+    .contact-form{
+        width: 70%;
+    }
+
+    .contact-form input{
+        width: 100%;
+    }
+
+    .in{
+        margin-right: 0px;
+    }
+
+    .contact-info{
+        width: 30%;
+        padding-right: 20px;
+    }
+
+}
